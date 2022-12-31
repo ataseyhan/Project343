@@ -191,7 +191,7 @@ public class Main {
         for (int m = 1; m < tracklistValues.size(); m++) {
             if ((from.get(tracklistValues.indexOf(trackListDesc.get(m))) == optimalTrackList.get(optimalTrackList.size() - 1)) && !optimalTrackList.contains(to.get(tracklistValues.indexOf(trackListDesc.get(m))))) {
                 //optimalTrackList.add(from.get(tracklistValues.indexOf(trackListDesc.get(m))));
-                optimalTrackList.add(to.get(tracklistValues.indexOf(trackListDesc.get(m))));
+               optimalTrackList.add(to.get(tracklistValues.indexOf(trackListDesc.get(m))));
             }
         }
         List<Double> totalValues = new ArrayList<>();
